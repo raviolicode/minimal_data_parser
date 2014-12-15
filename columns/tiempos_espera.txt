@@ -3,4 +3,4 @@ medicina_general
 pediatria
 cirugia_general
 ginecologia
-medico_meferencia
+medico_referencia

@@ -1,6 +1,12 @@
 require 'json'
 require 'csv'
 
+# 0 values are not valid in this case
+# Data has not been provided if 0
+CSV::Converters[:empty_data] = lambda do |data|
+  (data == "0") ? nil : data
+end
+
 # Takes a file name and a set of column definitions
 # And builds a hash with all the information
 module Scraper
@@ -8,11 +14,12 @@ module Scraper
     prepare(filename)
     data_collection = []
 
-    CSV.foreach(filename, {col_sep: ";", converters: :all}) do |row|
+    CSV.foreach(filename, {col_sep: ";", converters: [:empty_data, :all]}) do |row|
       data_collection << Hash[columns.zip(row)]
     end
     data_collection.shift
 
+    # puts data_collection
     data_collection
   end
 
