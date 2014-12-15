@@ -1,0 +1,5 @@
+id
+vias_asignacion_citas
+recordatorio_consultas
+caida_reserva
+comunicacion_con_el_usuario

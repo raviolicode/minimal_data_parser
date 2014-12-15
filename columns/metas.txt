@@ -1,0 +1,6 @@
+id
+afiliados_con_medico_referencia
+ninos_controlados
+embarazadas_controladas
+hay_espacio_adolescente
+pagina_web

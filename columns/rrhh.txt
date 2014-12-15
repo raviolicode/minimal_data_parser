@@ -1,0 +1,15 @@
+id
+medicos_generales
+medicos_familia
+pediatras
+ginecologos
+aux_enfermeria
+lic_enfermeria
+cad
+familiar_cad
+pediatria_cad
+ginecologia_cad
+interna_cad
+intensiva_adultos_cad
+intensiva_ped_cad
+neonatologia_cad

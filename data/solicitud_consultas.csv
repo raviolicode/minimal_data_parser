@@ -1,0 +1,64 @@
+id;Vías de asignación de citas;Recordatorio de consultas;Caída de reserva;Comunicación con el usuario
+62;Presencial y telefónica;NO;48 hs antes.;telefónica
+264;Presencial y telefónica;NO;48 hs antes.;telefónica
+567;Presencial y telefónica;NO;NO;telefónica
+769;Presencial y telefónica;NO;72 hs antes.;telefónica
+1062;Presencial, telefónica y web;Por SMS;NO;telefónica
+1163;Presencial, telefónica y web;Por SMS y Mail;NO;telefónica
+1210;Presencial y telefónica;Por SMS;NO;telefónica
+2315;Presencial y telefónica;SI;48 hs antes.;telefónica
+3567;Presencial y telefónica;NO;48 hs antes. Excepto población de zona rural.;telefónica
+4315;Presencial y telefónica;SI;48 hs antes.;telefónica
+4810;Presencial y telefónica;Por SMS; 24 hs antes.;telefónica
+5012;Presencial, telefónica y web;SMS con opción de respuesta (48 hs antes); 48 hs antes.;telefónica
+5163;Presencial y telefónica;Por SMS y correo de voz; 48 hs antes.;telefónica
+5315;Presencial y telefónica;Por SMS; 24 horas antes. Excepto población de zona rural.;telefónica
+5517;Presencial y telefónica;NO; 15 minutos despúes del inicio.;telefónica
+5810;Presencial y telefónica;Por SMS y llamada telefónica; 48 horas antes.;telefónica
+5961;Presencial, telefónica, web y médico en la consulta;NO;NO;telefónica
+6012;Presencial, telefónica y web;Por SMS; media hora después del inicio.;telefónica y por SMS
+6062;Presencial y telefónica;Por SMS; 48 hs antes. Excepto población de zona rural, mayores de 74 años y Estudios complejos.;telefónica
+6416;Presencial y telefónica;Por SMS;NO;telefónica
+6517;Presencial y telefónica;Proximamente; 48 horas antes.;telefónica
+6618;Presencial y telefónica;Por SMS; 48 horas antes.;telefónica
+6769;Presencial y telefónica;Por SMS ; 48 horas antes.;telefónica
+6860;Presencial y telefónica;Por SMS;NO;telefónica y 0800 para respuesta
+6985;Presencial y telefónica;NO;NO;telefónica
+7062;Presencial, telefónica y web;NO;Aún no, pero se está planificando.;telefónica
+7214;Presencial, telefónica, mail y web;Por SMS y Mail;NO;telefónica y SMS
+7264;Presencial, telefónica y web;Por SMS; 72 horas antes.;telefónica
+7466;Presencial y telefónica;Por SMS; 72 hs antes la segunda vez que no se confirma.;telefónica
+7553;Presencial y telefónica;Por SMS; media hora despúes del inicio de la consulta;telefónica
+7618;Presencial, telefónica y web;NO; media hora antes de la finalización de la consulta.;telefónica
+7719;Presencial y telefónica;Por SMS; 72 hs antes.;telefónica
+7810;Presencial y telefónica;NO; media hora después de comenzada la consulta.;telefónica
+8012;Presencial y telefónica Página WEB en construcción;En proceso de planificación; 24 hs antes.;telefónica
+8163;Presencial y telefónica;NO; 48 hs antes.;telefónica
+8220;Presencial y telefónica;SI;NO;telefónica
+8264;Presencial, telefónica y web;Por SMS;NO;telefónica
+9502;Presencial y telefónica Página WEB en construcción;Proximamente; media hora después.;telefónica
+9508;Presencial y telefónica;Llamada telefónica para algunas especialidades; 24 hs antes. Excepto usuarios de zona rural.;telefónica
+9516;Presencial y telefónica;NO;NO;telefónica
+9518;Presencial y telefónica;En proceso de planificación; 2 horas antes.;telefónica y SMS
+9526;Presencial, telefónica y web;Proximamente; 48 hs antes.;telefónica
+9532;Presencial, telefónica y web;Por SMS y Mail;NO;telefónica
+9548;Presencial y telefónica;NO; media hora después.;telefónica
+90001;Presencial y telefónica;NO;NO;telefónica
+90002;Presencial y telefónica;NO;NO;telefónica
+90003;Presencial y telefónica;NO;NO;telefónica
+90004;Presencial y telefónica;NO;NO;telefónica
+90005;Presencial y telefónica;NO;NO;telefónica
+90006;Presencial y telefónica;NO;NO;telefónica
+90007;Presencial y telefónica;NO;NO;telefónica
+90008;Presencial y telefónica;NO;NO;telefónica
+90009;Presencial y telefónica;NO;NO;telefónica
+90010;Presencial y telefónica;NO;NO;telefónica
+90011;Presencial y telefónica;NO;NO;telefónica
+90012;Presencial y telefónica;NO;NO;telefónica
+90013;Presencial y telefónica;NO;NO;telefónica
+90014;Presencial y telefónica;NO;NO;telefónica
+90015;Presencial y telefónica;NO;NO;telefónica
+90016;Presencial y telefónica;NO;NO;telefónica
+90017;Presencial y telefónica;NO;NO;telefónica
+90018;Presencial y telefónica;NO;NO;telefónica
+90019;Presencial y telefónica;NO;NO;telefónica
