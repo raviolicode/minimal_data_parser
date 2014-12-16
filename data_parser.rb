@@ -64,7 +64,7 @@ class DataParser
       map{ |perc| { perc => stats.percentile(perc) } }.
       inject({}){ |result, p| result.merge(p) }
 
-    percentiles.merge!( { :perc_no_data => (raw_data.count - data.count) * 1.0 / raw_data.count } )
+    percentiles.merge!( { :perc_with_data => (raw_data.count - data.count) * 1.0 / raw_data.count } )
 
     { key => percentiles }
   end
