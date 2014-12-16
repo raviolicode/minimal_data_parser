@@ -11,6 +11,7 @@ class DataParser
       metas
       solicitud_consultas
       rrhh
+      estructura
     )
     build_metadata_info
   end

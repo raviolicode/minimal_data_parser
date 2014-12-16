@@ -1,0 +1,4 @@
+id
+nombre_abreviado
+nombre_completo
+web
