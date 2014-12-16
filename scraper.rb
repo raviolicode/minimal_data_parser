@@ -1,5 +1,6 @@
 require 'json'
 require 'csv'
+require 'descriptive_statistics/safe'
 
 # 0 values are not valid in this case
 # Data has not been provided if 0
