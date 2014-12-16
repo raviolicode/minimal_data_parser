@@ -19,7 +19,8 @@ class DataParser
     @metadata.each do |metadata_item|
       add_data_from_criteria(metadata_item)
     end
-    File.open(output_filename, 'w') {|f| f.write(JSON.generate(@merged_data))}
+
+    File.write(output_filename, JSON.generate(@merged_data))
   end
 
   private

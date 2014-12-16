@@ -33,6 +33,6 @@ module Scraper
     file_content.gsub!(/(\d+),(\d+)/, '\1.\2')
     file_content.gsub!(/(\d+)%/, '\1')
     file_content.sub!("1 id_mutualista", "id")
-    File.open(file_name, 'w') {|f| f.write(file_content) }
+    File.write(file_name, file_content)
   end
 end
