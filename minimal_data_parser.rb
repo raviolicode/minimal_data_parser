@@ -4,6 +4,7 @@ criteria_groups = %W(
   precios
   tiempos_espera
   metas
+  satisfaccion_derechos
   rrhh
   estructura
 )

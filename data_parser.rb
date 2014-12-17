@@ -5,7 +5,7 @@ require_relative 'scraper'
 ## By default, parses ALL criteria groups
 class DataParser
   def initialize(criteria_groups = nil)
-    @merged_data = [ { stats: {} } ]
+    @merged_data = { stats: {}, providers: [] }
     @metadata = []
     @criteria = criteria_groups || %W(
       precios
@@ -43,17 +43,17 @@ class DataParser
       provider_id = provider_data[:id]
       provider_data.delete(:id)
 
-      existing_provider_data = @merged_data.find {|pdata| pdata[:id] == provider_id}
+      existing_provider_data = @merged_data[:providers].find {|pdata| pdata[:id] == provider_id}
       if existing_provider_data
         existing_provider_data.merge!({ metadata_item.attribute => provider_data })
       else
-        @merged_data << { id: provider_id, metadata_item.attribute => provider_data }
+        @merged_data[:providers] << { id: provider_id, metadata_item.attribute => provider_data }
       end
     end
   end
 
   def append_stats(metadata_item, info)
-    stats = @merged_data.find {|pdata| pdata[:stats] }[:stats]
+    stats = @merged_data[:stats] #.find {|pdata| pdata[:stats] }[:stats]
     keys = metadata_item.columns.reject{ |key| key.to_s == 'id' }
 
     new_stats = keys.inject({}){ |result, key| result.merge(calculate_stats(info, key)) }
