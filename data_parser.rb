@@ -1,17 +1,20 @@
 require_relative 'scraper'
 
+## Data Parser
+## (Optional) List of criteria groups
+## By default, parses ALL criteria groups
 class DataParser
-  def initialize
+  def initialize(criteria_groups = nil)
     @merged_data = [ { stats: {} } ]
     @metadata = []
-    @criteria = %W(
+    @criteria = criteria_groups || %W(
       precios
       tiempos_espera
-      satisfaccion_derechos
       metas
-      solicitud_consultas
       rrhh
       estructura
+      satisfaccion_derechos
+      solicitud_consultas
     )
     build_metadata_info
   end
