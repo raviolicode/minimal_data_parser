@@ -1,0 +1,4 @@
+id;direccion;nivel;departamento;localidad;urgencia;alergista;anestesiologia;cardiologia;cirugia;cirugia_reparadora;cirugia_vascular;deportologia;dermatologia;endocrinologia;fisiatria;gastroenterologia;geriatria;ginecologia;hematologia;infectologia;medicina_general;medicina_interna;medicina_intensiva;nefrologia;neonatologia;neumologia;neurocirugia;neurologia;neuropediatria;odontologia;oncologia;otorrino;pediatria;psiquiatria;psiquiatria_infantil;reumatologia;traumatologia;urologia
+62;primaria;;;si;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+62;secundaria;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+62;policlinica;;;no;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
