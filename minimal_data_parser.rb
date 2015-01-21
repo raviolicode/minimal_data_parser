@@ -1,13 +1,17 @@
-require_relative 'data_parser.rb'
+require_relative 'auto_data_parser.rb'
+require 'json'
+
+  # rrhh
+  # estructura_general
+  # indicadores_sinadi?
 
 criteria_groups = %W(
-  precios
-  tiempos_espera
-  metas
-  satisfaccion_derechos
-  rrhh
   estructura
+  metas
+  precios
+  satisfaccion_derechos
+  solicitud_consultas
+  tiempos_espera
 )
 
-DataParser.new.to_JSON('output/details.json')
-DataParser.new(criteria_groups).to_JSON('output/listing.json')
+AutoDataParser.process('output/details.json', 'data', criteria_groups)
