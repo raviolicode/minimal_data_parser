@@ -25,10 +25,10 @@ class AutoDataParser
       # csv_data is in the form of: {id: X, col1: Y, col2: Z}
       # we transform it to be: {id: X, csv_name: {col1: Y, col2: Z}}
       csv_data.map do |element|
-        hash_with_id = element.select{|k,v| k == :id}
-        columns_data = element.reject{|k,v| k == :id}
+        hash_with_id = element.select{|k,v| k == "id"}
+        columns_data = element.reject{|k,v| k == "id"}
 
-        hash_with_id.merge({ name.to_sym => columns_data })
+        hash_with_id.merge({ name => columns_data })
       end
     end
   end
