@@ -5,14 +5,15 @@ require 'json'
   # estructura_general
   # indicadores_sinadi?
 
+#   estructura
+#   metas
+#   precios
+#
+#   solicitud_consultas
+#   tiempos_espera
+#   sedes
 criteria_groups = %W(
-  estructura
-  metas
-  precios
   satisfaccion_derechos
-  solicitud_consultas
-  tiempos_espera
-  sedes
 )
 
 AutoDataParser.process('output/details.json', 'data', criteria_groups)
