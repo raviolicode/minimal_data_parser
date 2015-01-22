@@ -11,9 +11,12 @@ class AutoDataParser
   end
 
   def self.read_all(dir_path, *csv_names)
-    options = { converters: [:empty_data, :true_indicator, :false_indicator] }
+    options = { headers: true,
+                converters: [:all, :empty_data, :true_indicator, :false_indicator]
+              }
+
     csv_names.map do |name|
-      csv = CSV.table(File.join(dir_path, "#{name}.csv"), options)
+      csv = CSV.read(File.join(dir_path, "#{name}.csv"), options)
 
       csv_data = csv.to_a[1..-1].map do |row|
         Hash[csv.headers.zip(row)]
@@ -32,9 +35,7 @@ class AutoDataParser
 
   def self.condense(*pieces_of_data)
     first, *rest = pieces_of_data
-    first.zip(*rest).map{|e| e.inject({}){ |merged, elt| 
-      # require 'byebug'; byebug unless elt; a = 1 
-      merged.merge(elt || {}) }}
+    first.zip(*rest).map{|e| e.inject({}){ |merged, elt| merged.merge(elt || {}) }}
   end
 
   # CSV converters, used to transform cells when parsing the CSV
