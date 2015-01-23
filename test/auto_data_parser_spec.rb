@@ -33,4 +33,28 @@ describe AutoDataParser do
 
     data.must_equal condensed_hash
   end
+
+  it "should do averages correctly" do
+    data = [
+      {"id"=>1, "criterium1"=>{"a"=>1, "b"=>2, "c" => 3},
+                "criterium2"=>{"d"=>3, "e"=>4, "j" => 33},
+                "criterium3"=>{"f"=>"a5", "g"=>"a6"}},
+      {"id"=>2, "criterium1"=>{"a"=>10, "b"=>20},
+                 "criterium2"=>{"d"=>30, "e"=>40},
+                 "criterium3"=>{"f"=>"a50", "g"=>"a60"}}
+      ]
+
+      data_with_averages = [
+        {"id"=>1, "criterium1"=>{"a"=>1, "b"=>2, "c" => 3,
+                                 "averages" => {"avg 1"=>1.5, "avg 2"=>2.0}},
+                  "criterium2"=>{"d"=>3, "e"=>4, "j" => 33},
+                  "criterium3"=>{"f"=>"a5", "g"=>"a6"}},
+        {"id"=>2, "criterium1"=>{"a"=>10, "b"=>20,
+                                 "averages" => {"avg 1"=>15.0, "avg 2"=>nil}},
+                   "criterium2"=>{"d"=>30, "e"=>40},
+                   "criterium3"=>{"f"=>"a50", "g"=>"a60"}}
+        ]
+      AutoDataParser.add_averages!(data, "fixtures/averages.yml")
+      data.must_equal data_with_averages
+  end
 end

@@ -1,0 +1,11 @@
+averages:
+  - name: "avg 1"
+    criteria: criterium1
+    columns:
+      - a
+      - b
+  - name: "avg 2"
+    criteria: criterium1
+    columns:
+      - a
+      - c

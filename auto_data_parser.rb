@@ -1,4 +1,5 @@
 require 'csv'
+require 'yaml'
 
 ## Auto Data Parser uses data that has been cleaned beforehand
 class AutoDataParser
@@ -36,6 +37,36 @@ class AutoDataParser
   def self.condense(*pieces_of_data)
     first, *rest = pieces_of_data
     first.zip(*rest).map{|e| e.inject({}){ |merged, elt| merged.merge(elt || {}) }}
+  end
+
+  def self.add_averages!(data, config_file)
+    averages_config = YAML.load_file(config_file)['averages']
+    data.each do |provider|
+      averages = averages_config.map do |average_info|
+        criteria = average_info['criteria']
+        selected_keys = average_info['columns']
+        values = provider[criteria]
+
+        # Adds one of the averages for that particular criteria:
+        # Ex:
+        # { id: 5, criterium1: { a: 1, b: 3 }, averages: { avg_a_and_b: 1.5 }}
+        provider[criteria]["averages"] ||= {}
+        provider[criteria]["averages"].merge!({ average_info['name'] => calculate_average(values, selected_keys) })
+      end
+    end
+  end
+
+  # I want the average of the values of the selected keys
+  # given a hash "values", and an array of "selected_keys"
+  def self.calculate_average(values, selected_keys)
+    selected_values = selected_keys.map{|key| values[key]}
+
+    # we need to measure providers equally
+    # we only provide an average when all the elements are present
+    # we return nil otherwise
+    unless selected_values.include?(nil)
+      selected_values.reduce(:+).to_f / selected_values.size unless selected_values.empty?
+    end
   end
 
   # CSV converters, used to transform cells when parsing the CSV
