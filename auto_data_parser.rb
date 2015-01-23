@@ -7,6 +7,7 @@ class AutoDataParser
   def self.process(output_file, dir_path, csv_names)
     grouped_data = self.read_all(dir_path, *csv_names)
     condensed_data = self.condense(*grouped_data)
+    self.add_averages!(condensed_data, 'config/averages.yml')
 
     File.write('output/details.json', JSON.generate(condensed_data))
   end
@@ -47,11 +48,13 @@ class AutoDataParser
         selected_keys = average_info['columns']
         values = provider[criteria]
 
-        # Adds one of the averages for that particular criteria:
-        # Ex:
-        # { id: 5, criterium1: { a: 1, b: 3 }, averages: { avg_a_and_b: 1.5 }}
-        provider[criteria]["averages"] ||= {}
-        provider[criteria]["averages"].merge!({ average_info['name'] => calculate_average(values, selected_keys) })
+        if values
+          # Adds one of the averages for that particular criteria:
+          # Ex:
+          # { id: 5, criterium1: { a: 1, b: 3 }, averages: { avg_a_and_b: 1.5 }}
+          provider[criteria]["averages"] ||= {}
+          provider[criteria]["averages"].merge!({ average_info['name'] => calculate_average(values, selected_keys) })
+        end
       end
     end
   end
