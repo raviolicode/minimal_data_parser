@@ -156,7 +156,7 @@ class AutoDataParser
             'Cantidad de sedes centrales' => count_by_group(inst_by_state[state], "Sede Central"),
             'Cantidad de sedes secundarias' => count_by_group(inst_by_state[state], "Sede Secundaria"),
             'Cantidad de sedes ambulatorias' => count_by_group(inst_by_state[state], "Ambulatorio"),
-            'Tiene urgencia' => count_by_group(inst_by_state[state], "Servicio de Urgencia")
+            'Tiene urgencia' => inst_by_state[state].any?{|i| i["Servicio de Urgencia"]}
           }
         })
       end
