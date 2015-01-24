@@ -146,7 +146,7 @@ class AutoDataParser
 
   def self.add_institution_info!(data)
     data[:providers].each do |provider|
-      structure_data = provider['estructura']
+      structure_data = provider
       structure_data.merge!(estructura_por_departamento: {})
 
       inst_by_state = provider['sedes'].group_by{|i| i["Departamento"]}
