@@ -12,7 +12,10 @@ criteria_groups = %W(
   satisfaccion_derechos
   solicitud_consultas
   tiempos_espera
+)
+
+criteria_groups_no_uniq = %W(
   sedes
 )
 
-AutoDataParser.process('output/details.json', 'data', criteria_groups)
+AutoDataParser.process('output/details.json', 'data', criteria_groups, criteria_groups_no_uniq)

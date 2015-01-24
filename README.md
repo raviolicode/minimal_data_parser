@@ -13,3 +13,9 @@ ruby minimal_data_parser.rb
 ```
 
 Result is generated in `output` folder
+
+# TODO
+
+- [ ] port statistics functionality to new code
+- [ ] remove code from old requirements
+- [ ] use separate modules for lookup table, averages
