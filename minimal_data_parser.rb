@@ -12,6 +12,7 @@ criteria_groups = %W(
   satisfaccion_derechos
   solicitud_consultas
   tiempos_espera
+  rrhh
 )
 
 criteria_groups_no_uniq = %W(
