@@ -136,7 +136,7 @@ id,Direccion,Departamento,localidad,nivel,Servicio de Urgencia,Alergista,Anestes
 1062,Jose Salvo 212,Colonia,Juan Lacaze,Sede Secundaria,si,no,si,si,si,si,no,no,si,si,si,si,si,si,si,no,si,si,no,no,no,no,no,si,si,si,si,si,si,si,si,si,si,si
 1062,Avenida Artigas 265,Canelones,La Paz,Sede Secundaria,si,no,no,si,no,no,no,no,si,si,no,no,no,si,no,no,si,no,no,no,no,no,no,no,no,si,no,si,si,si,no,no,no,no
 1062,Ruta Interbalnearia Km. 22.500,Canelones,Lagomar,Sede Secundaria,si,no,no,si,si,no,no,no,si,si,si,si,no,si,no,no,si,no,no,no,no,no,no,si,no,si,no,si,si,si,si,si,si,si
-1062,Batlle Y Ordoñez 583,canelones,Las Piedras,Sede Secundaria,si,no,no,si,si,no,no,no,si,si,si,no,si,si,no,no,si,no,no,no,no,no,no,si,no,si,no,si,si,si,si,si,si,si
+1062,Batlle Y Ordoñez 583,Canelones,Las Piedras,Sede Secundaria,si,no,no,si,si,no,no,no,si,si,si,no,si,si,no,no,si,no,no,no,no,no,no,si,no,si,no,si,si,si,si,si,si,si
 1062,Artigas 872,San José,Libertad,Sede Secundaria,si,no,no,si,si,no,no,no,si,si,si,no,no,si,no,no,si,no,no,no,no,no,no,si,no,si,no,si,si,si,si,si,si,si
 1062,Camino Carrasco 398,Canelones,Paso Carrasco,Sede Secundaria,si,no,no,si,si,no,no,no,si,si,no,no,no,si,no,no,si,no,no,no,no,no,no,si,no,si,no,si,si,si,no,no,no,no
 1062,Sede Secundaria Punta Del Este - Bulevar Artigas S/N,Maldonado,Punta del Este,Sede Secundaria,si,no,no,si,si,no,no,no,si,si,no,no,no,si,no,no,si,no,no,no,no,no,no,si,no,si,no,si,si,si,no,no,no,no
@@ -188,7 +188,7 @@ id,Direccion,Departamento,localidad,nivel,Servicio de Urgencia,Alergista,Anestes
 3567,Policlínica Castillos  -  25 De Agosto 1206,Rocha,Castillos,Sede Secundaria,SI,,,Si,Si,,,,,,,,,Si,,,Si,,,,,,,,,,,,Si,Si,,,Si,
 3567,Policlínica Casupa - Luis Alberto De Herrera 1039,Florida,Casupá,Sede Secundaria,SI,,,,Si,,,,Si,,,,,Si,,,Si,,,,,,,,,,,,Si,,,,,
 3567,Policlínica Los Cerrillos - Avenida Zorrilla De San Martin S/N,Canelones,Los Cerrillos,Sede Secundaria,SI,,,Si,Si,,,,,,,,,Si,,,Si,,,,,,,,,,,,Si,,,,,
-3567,Policlínica Cerro Chato - Liborio Rolan S/N,Treinta y Tres,Cerro Chato,Sede Secundaria,SI,,,Si,Si,,,,Si,Si,,Si,Si,Si,,,Si,,,,,,,,,,,Si,Si,Si,,Si,,
+3567,Policlínica Cerro Chato - Liborio Rolan S/N,Treinta Y Tres,Cerro Chato,Sede Secundaria,SI,,,Si,Si,,,,Si,Si,,Si,Si,Si,,,Si,,,,,,,,,,,Si,Si,Si,,Si,,
 3567,Policlínica Chuy  -  Bernardo Ventura  520,Rocha,Chuy,Sede Secundaria,SI,,,Si,Si,,,,Si,Si,,Si,,Si,,,Si,,,,,,Si,Si,,,,Si,Si,Si,,Si,Si,Si
 3567,Sede Secundaria Colonia - Alberto Mendez 266,Colonia,Colonia,Sede Secundaria,SI,,,,Si,,,,Si,,,,,Si,,,Si,,,,,,,,,,,,Si,,,,,
 3567,Sede Secundaria Colonia Nicolich - Ancon S/N,Canelones,Colonia Nicolich,Sede Secundaria,,,no,si,si,no,no,no,si,si,NO,no,no,si,no,no,si,no,no,no,no,no,no,si,no,no,no,si,si,si,no,no,no,no
@@ -223,7 +223,7 @@ id,Direccion,Departamento,localidad,nivel,Servicio de Urgencia,Alergista,Anestes
 3567,Policlínica Tala - 25 De Agosto S/N,Canelones,Tala,Sede Secundaria,Si,,,Si,Si,,,,Si,,,Si,,Si,,,Si,,,,,,,,,,,Si,Si,,,,Si,
 3567,Policlínica Tarariras - Jose Pedro Varela 2147,Colonia,Tarariras,Sede Secundaria,SI,,,,,,,,Si,,,,,Si,,,Si,,,,,,,,,,,,Si,,,,,
 3567,Sede Secundaria Toledo - Avenida De La Estacion S/N,Canelones,Toledo,Sede Secundaria,SI,,,Si,Si,,,,Si,Si,,Si,,Si,,,Si,,,,,,,Si,,,,Si,Si,Si,Si,Si,,Si
-3567,Sede Secundaria Treinta Y Tres - Basilio Araujo 1181,Treinta y Tres,Treinta y Tres,Sede Secundaria,SI,SI,,Si,Si,,,,Si,Si,,,,Si,,,Si,,,,,,,,,,,Si,Si,Si,,Si,Si,
+3567,Sede Secundaria Treinta Y Tres - Basilio Araujo 1181,Treinta Y Tres,Treinta y Tres,Sede Secundaria,SI,SI,,Si,Si,,,,Si,Si,,,,Si,,,Si,,,,,,,,,,,Si,Si,Si,,Si,Si,
 4315,Sede Secundaria Salinas - Ruta Interbalnearia Km 38400,Canelones,Salinas,Sede Secundaria,Si,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Si,No,No,No,No,No,No,No,No,No,No,No,Si,No,No,No,No,No
 4315,Sede Secundaria Solymar - Avenida Giannattasio Km 24,Canelones,Solymar,Sede Secundaria,Si,No,No,Si,si,No,No,No,No,No,No,No,No,Si,No,No,Si,No,No,No,No,No,No,No,No,Si,No,No,Si,Si,No,No,NO,No
 4315,Sede Secundaria Colectiva Toledo,Canelones,Toledo,Sede Secundaria,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no,no
@@ -299,7 +299,7 @@ id,Direccion,Departamento,localidad,nivel,Servicio de Urgencia,Alergista,Anestes
 5810,Melo. A De La Rosa 503,Cerro Largo,Melo,Ambulatorio,No,no,no,no,no,,no,no,,no,no,no,no,si,no,no,si,no,no,no,no,no,no,no,si,no,no,no,si,si,,no,no,no
 5810,Río Branco-Zoilo Pereira,Cerro Largo,Rio Branco,Ambulatorio,Si,No,No,si,si,,No,No,si,si,No,si,No,si,No,No,si,No,No,No,si,No,si,si,si,No,No,No,No,No,,No,No,No
 5810,Rio Branco - Joaquin Antonio Gundín,Cerro Largo,Rio Branco,Ambulatorio,No,No,No,No,No,,No,No,,No,No,No,No,No,No,No,,No,No,No,No,No,No,No,No,No,No,No,No,No,,No,No,No
-5810,Santa Clara - 25 De Agosto S/N,Treinta y Tres,Santa Clara de Olimar,Sede Secundaria,No,No,No,si,No,,No,No,,No,No,No,No,si,No,No,si,No,No,No,No,No,No,No,si,No,si,si,si,No,,No,No,si
+5810,Santa Clara - 25 De Agosto S/N,Treinta Y Tres,Santa Clara de Olimar,Sede Secundaria,No,No,No,si,No,,No,No,,No,No,No,No,si,No,No,si,No,No,No,No,No,No,No,si,No,si,si,si,No,,No,No,si
 5810,Tupambae - Cerro Largo S/N,Cerro Largo,Tupambae,Ambulatorio,No,No,No,si,No,,No,No,,No,No,No,No,si,No,No,si,No,No,No,No,No,No,No,No,No,si,si,No,No,,No,No,No
 5961,Colonia - Luis Alberto De Herrera S/N,Colonia,Colonia del Sacramento,Ambulatorio,No,No,No,Si,No,No,No,No,Si,Si,No,No,Si,Si,No,No,Si,No,No,No,No,No,No,No,No,No,No,Si,Si,No,No,No,No,Si
 5961,Colonia - Fernando Carballo S/N,Colonia,Colonia del Sacramento,Ambulatorio,No,No,No,Si,No,No,No,No,No,No,No,No,No,Si,No,No,Si,No,No,No,No,No,No,No,No,No,No,No,Si,No,No,No,No,Si
@@ -490,17 +490,17 @@ id,Direccion,Departamento,localidad,nivel,Servicio de Urgencia,Alergista,Anestes
 8163,Tacurembo - Ivo Ferreira 390,Tacuarembó,Tacuarembo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 8163,Tacurembo - Rivera 385,Tacuarembó,Tacuarembo,Ambulatorio,Si,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Si,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
 8163,Tambores - Ruta 26 Km 198 Alipio Ferreira S/N,Tacuarembó,Tambores,Ambulatorio,Si,No,No,Si,No,No,No,No,No,No,No,No,No,Si,No,No,Si,No,No,No,No,No,No,No,No,No,No,Si,Si,Si,No,No,No,No
-8220,Santa Clara Del Olimar - 25 De Agosto S/N,Treinta y Tres,Santa Clara del Olimar,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-8220,Treinta Y Tres - Juan Antonio Lavalleja 315,Treinta y Tres,Treinta y Tres,Sede Central,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-8220,Vergara - Joaquin Suarez S/N,Treinta y Tres,Vergara,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8220,Santa Clara Del Olimar - 25 De Agosto S/N,Treinta Y Tres,Santa Clara del Olimar,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8220,Treinta Y Tres - Juan Antonio Lavalleja 315,Treinta Y Tres,Treinta y Tres,Sede Central,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8220,Vergara - Joaquin Suarez S/N,Treinta Y Tres,Vergara,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 8264,Jose Pedro Varela - Sede Secundaria - Soriano E/ Lavalleja Y Rivera,Lavalleja,José Pedro Varela,Sede Secundaria,si,NO,NO,NO,SI,NO,NO,NO,NO,NO,NO,NO,NO,SI,NO,NO,SI,NO,NO,NO,NO,NO,NO,NO,SI,NO,NO,SI,NO,NO,SI,NO,NO,
-8264,Cerro Chato - Julio Alberto Goday S/N,Treinta y Tres,Cerro Chato,Ambulatorio,si,NO,NO,SI,NO,NO,NO,NO,NO,NO,NO,SI,NO,SI,NO,NO,SI,NO,NO,NO,SI,NO,SI,NO,SI,NO,NO,SI,SI,NO,NO,NO,NO,
-8264,Santa Clara Del Olimar - 25 De Agosto S/N,Treinta y Tres,Santa Clara del Olimar,Ambulatorio,si,NO,NO,SI,NO,NO,NO,NO,NO,NO,NO,SI,NO,SI,NO,NO,SI,NO,NO,NO,SI,NO,SI,NO,SI,NO,NO,SI,SI,NO,NO,NO,NO,
-8264,Treinta Y Tres  -  Sanatorio - Basilio Araujo 270,Treinta y Tres,Treinta y Tres,Ambulatorio,si,NO,SI,SI,SI,SI,SI,NO,NO,NO,NO,SI,NO,SI,SI,SI,SI,SI,SI,NO,SI,NO,SI,NO,SI,SI,SI,SI,SI,SI,NO,SI,SI,
-8264,Treinta Y Tres  -  Sede Principal- Simon Del Pino 1366,Treinta y Tres,Treinta y Tres,Sede Central,NO,NO,SI,SI,SI,SI,SI,NO,SI,SI,SI,SI,NO,SI,SI,SI,SI,SI,NO,NO,SI,NO,SI,SI,SI,SI,SI,SI,SI,SI,SI,SI,SI,
-8264,Treinta Y Tres  -  Laboratorio- Manuel Oribe 523,Treinta y Tres,Treinta y Tres,,NO,NO,NO,NO,,,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,,,NO,NO,,NO,NO,NO,,,,,,,,,,
-8264,Vergara - Marcelo Barreto 1101,Treinta y Tres,Vergara,Ambulatorio,si,NO,NO,SI,NO,NO,NO,NO,NO,SI,NO,SI,NO,SI,NO,NO,SI,NO,NO,NO,SI,NO,SI,NO,SI,NO,SI,SI,SI,NO,SI,SI,SI,
-8264,La Charqueada - Coronel Leonardo Olivera S/N,Treinta y Tres,La Charqueada,Ambulatorio,si,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,SI,NO,NO,SI,NO,NO,NO,NO,,NO,,SI,NO,NO,SI,NO,NO,NO,NO,NO,
+8264,Cerro Chato - Julio Alberto Goday S/N,Treinta Y Tres,Cerro Chato,Ambulatorio,si,NO,NO,SI,NO,NO,NO,NO,NO,NO,NO,SI,NO,SI,NO,NO,SI,NO,NO,NO,SI,NO,SI,NO,SI,NO,NO,SI,SI,NO,NO,NO,NO,
+8264,Santa Clara Del Olimar - 25 De Agosto S/N,Treinta Y Tres,Santa Clara del Olimar,Ambulatorio,si,NO,NO,SI,NO,NO,NO,NO,NO,NO,NO,SI,NO,SI,NO,NO,SI,NO,NO,NO,SI,NO,SI,NO,SI,NO,NO,SI,SI,NO,NO,NO,NO,
+8264,Treinta Y Tres  -  Sanatorio - Basilio Araujo 270,Treinta Y Tres,Treinta y Tres,Ambulatorio,si,NO,SI,SI,SI,SI,SI,NO,NO,NO,NO,SI,NO,SI,SI,SI,SI,SI,SI,NO,SI,NO,SI,NO,SI,SI,SI,SI,SI,SI,NO,SI,SI,
+8264,Treinta Y Tres  -  Sede Principal- Simon Del Pino 1366,Treinta Y Tres,Treinta y Tres,Sede Central,NO,NO,SI,SI,SI,SI,SI,NO,SI,SI,SI,SI,NO,SI,SI,SI,SI,SI,NO,NO,SI,NO,SI,SI,SI,SI,SI,SI,SI,SI,SI,SI,SI,
+8264,Treinta Y Tres  -  Laboratorio- Manuel Oribe 523,Treinta Y Tres,Treinta y Tres,,NO,NO,NO,NO,,,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,,,NO,NO,,NO,NO,NO,,,,,,,,,,
+8264,Vergara - Marcelo Barreto 1101,Treinta Y Tres,Vergara,Ambulatorio,si,NO,NO,SI,NO,NO,NO,NO,NO,SI,NO,SI,NO,SI,NO,NO,SI,NO,NO,NO,SI,NO,SI,NO,SI,NO,SI,SI,SI,NO,SI,SI,SI,
+8264,La Charqueada - Coronel Leonardo Olivera S/N,Treinta Y Tres,La Charqueada,Ambulatorio,si,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,SI,NO,NO,SI,NO,NO,NO,NO,,NO,,SI,NO,NO,SI,NO,NO,NO,NO,NO,
 90001,Artigas - Centro De Salud Artigas - 18 De Julio 237,Artigas,Artigas,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 90001,Artigas - Hospital De Artigas - Eduardo Castro S/N,Artigas,Artigas,Sede Central,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 90001,Artigas - Policlinica 19 De Junio - Andres Cheveste S/N,Artigas,Artigas,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -1257,15 +1257,15 @@ id,Direccion,Departamento,localidad,nivel,Servicio de Urgencia,Alergista,Anestes
 90018,Tambores - Avenida Artigas S/N,Tacuarembó,Tambores,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 90018,Treinta Y Tres O Cañas - Camino Vecinal S/N,Tacuarembó,Treinta y Tres ó Cañas,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 90018,Valle Eden - Camino Vecinal S/N,Tacuarembó,Valle Edén,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90019,Cerro Chato - Brigadier Manuel Oribe S/N,Treinta y Tres,Cerro Chato,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90019,General Enrique Martinez - Ellauri S/N,Treinta y Tres,Gral. Enrique Martínez,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90019,Santa Clara Del Olimar - Centro Auxiliar Santa Clara - Avenida Chiquito Saravia S/N,Treinta y Tres,Santa Clara de Olimar,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90019,Treinta Y Tres - Centro De Salud Bolivar Ledesma - Pablo Zufriategui,Treinta y Tres,Treinta y Tres,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90019,Treinta Y Tres - Hospital Departamental De Treinta Y Tres - Jose Enrique Rodo S/N,Treinta y Tres,Treinta y Tres,Sede Central,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90019,Treinta Y Tres - Juan Alvarez S/N,Treinta y Tres,Treinta y Tres,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90019,Valentines - Ruta 19 S/N,Treinta y Tres,Valentines,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90019,Vergara - Centro Auxiliar Vergara - Marcelo Barreto 1260,Treinta y Tres,Vergara,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90019,Vergara - Centro Auxiliar Vergara - Marcelo Barreto 1260,Treinta y Tres,Vergara,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90019,Cerro Chato - Brigadier Manuel Oribe S/N,Treinta Y Tres,Cerro Chato,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90019,General Enrique Martinez - Ellauri S/N,Treinta Y Tres,Gral. Enrique Martínez,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90019,Santa Clara Del Olimar - Centro Auxiliar Santa Clara - Avenida Chiquito Saravia S/N,Treinta Y Tres,Santa Clara de Olimar,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90019,Treinta Y Tres - Centro De Salud Bolivar Ledesma - Pablo Zufriategui,Treinta Y Tres,Treinta y Tres,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90019,Treinta Y Tres - Hospital Departamental De Treinta Y Tres - Jose Enrique Rodo S/N,Treinta Y Tres,Treinta y Tres,Sede Central,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90019,Treinta Y Tres - Juan Alvarez S/N,Treinta Y Tres,Treinta y Tres,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90019,Valentines - Ruta 19 S/N,Treinta Y Tres,Valentines,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90019,Vergara - Centro Auxiliar Vergara - Marcelo Barreto 1260,Treinta Y Tres,Vergara,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90019,Vergara - Centro Auxiliar Vergara - Marcelo Barreto 1260,Treinta Y Tres,Vergara,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 9502,Bulevar Artigas 1198,Montevideo,Montevideo,Sede Central,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 9502,Alejo Rossell Y Rius,Montevideo,Montevideo,Ambulatorio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 9508,Consultorios Parque Batlle - Avenida Americo Ricaldoni 2468,Montevideo,Montevideo,Ambulatorio,NO,SI,si,SI,SI,SI,SI,SI,SI,SI,si,SI,SI,SI,SI,SI,Si,SI,SI,SI,SI,SI,SI,SI,NO,SI,SI,SI,SI,SI,SI,SI,SI,

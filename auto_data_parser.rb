@@ -13,14 +13,11 @@ class AutoDataParser
       data.merge!(institution_data[index])
     end
 
-
     self.add_averages!(providers_data, 'config/averages.yml')
     data = { providers: providers_data }
 
-    # lookup by state info
-    # self.add_lookup_table!(data)
-
     self.add_institution_info!(data)
+    self.add_lookup_table!(data)
 
     File.write('output/details.json', JSON.generate(data))
   end
@@ -125,13 +122,13 @@ class AutoDataParser
   #   ...
   # }
   # TODO: refactor this code
+  # Depends on add_institution_info
   def self.add_lookup_table!(data)
     data.merge!(lookup_by_state: [])
 
     data[:providers].each_with_index do |provider, index|
-      require 'byebug'; byebug; a = 1 
-      institutions = provider['sedes']
-      states = institutions.map{|s| s["Departamento"]}.compact.uniq
+      states = provider[:estructura_por_departamento].keys
+
       states.each do |state|
         if lookup = data[:lookup_by_state].find{|s| s[:name] == state}
           lookup[:providers] << index
