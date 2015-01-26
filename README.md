@@ -19,3 +19,4 @@ Result is generated in `output` folder
 - [ ] port statistics functionality to new code
 - [ ] remove code from old requirements
 - [ ] use separate modules for lookup table, averages
+- [ ] CSV filter for state, capitalize cells
